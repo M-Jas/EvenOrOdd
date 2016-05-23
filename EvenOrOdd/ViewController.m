@@ -30,7 +30,7 @@
     int value = [userInputNumber intValue];
     
     if (![userInputNumber intValue]) {
-        _evaluatedResponse.text = @"Thats Not a Number!";
+        _evaluatedResponse.text = @"Whole Numbers only!";
     }else if (value % 2 == 0){
        _evaluatedResponse.text = @"Even";
     } else {
